@@ -536,10 +536,7 @@ export default {
   },
   methods: {
     query() {
-        debugger
-        console.log('8878787')
         if(window.location.href.includes('?scene')){
-            console.log(8888)
             var href = window.location.href
             var del = href.substring(href.indexOf('?scene'),href.indexOf("#"))
             window.location.href = window.location.href.replace(del,'')
